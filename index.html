@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolution | Танцевальный коллектив</title>
+    <meta name="description" content="Официальный сайт танцевального коллектива Revolution. Присоединяйтесь к нашей дружной команде!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">Главная</a></li>
+                        <li><a href="#members" class="nav-link">Участники</a></li>
+                        <li><a href="#choreographers" class="nav-link">Хореографы</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <canvas id="particleCanvas" class="particle-canvas"></canvas>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <canvas id="heroLogoCanvas" width="300" height="150"></canvas>
+                </div>
+                
+                <h1 class="hero-title fade-element">ТАНЦЕВАЛЬНЫЙ КОЛЛЕКТИВ</h1>
+                <h2 class="hero-subtitle fade-element">REVOLUTION</h2>
+                
+                <p class="hero-description fade-element">
+                    Присоединяйтесь к нашему дружному коллективу и раскройте свой танцевальный потенциал!
+                </p>
+                
+                <div class="btn-container fade-element">
+                    <a href="#members" class="btn btn-primary">
+                        Познакомиться с командой
+                        <span class="btn-icon">👥</span>
+                    </a>
+                    <a href="#choreographers" class="btn btn-outline">
+                        Наши хореографы
+                        <span class="btn-icon">⭐</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            <div class="content-container">
+                <h2 class="section-title fade-element">ОТКРЫТ НАБОР В ЛУЧШИЙ И ДРУЖНЫЙ ТАНЦЕВАЛЬНЫЙ КОЛЛЕКТИВ REVOLUTION!</h2>
+                
+                <div class="content-text fade-element">
+                    <p>😮 Уверена, что вы уже слыхали о нем и видели много, много раз на сцене. Так вот. Если есть желающие, вы можете запросто присоединиться к этой дружелюбной группе.🤩</p>
+                    <br>
+                    <p>С вами будут хорошо общаться, хорошо учить движениям, так же и гимнастическим.🤩</p>
+                    <br>
+                    <p>Вас будет учить прекрасные люди Малика и Денис <span class="highlight">@mollyxwod @Ghostonil</span> они вам всегда помогут и поймут. Постарается облегчить вам задание с движениями если у вас будут какие то трудности.🤩</p>
+                    <br>
+                    <p>К-поп танцы и выступление на сцене, что есть еще большой плюс. Вам дадут освобождение от школы когда вы будете выступать.🤩</p>
+                    <br>
+                    <p>Перед концертом всегда помогут чем смогут, особенно поможет вам Малика, а точнее наша главная мама всей группы. Накрасит вас, если надо одолжит одежду и т.д.🤩</p>
+                    <br>
+                    <p><strong>В месяц всего по 20 тысяч, по всем вопросам пишите  <span class="highlight">@mollyxwod</span></strong></p>
+                    <br>
+                    <p class="text-center gradient-text">!! РАСПРОСТРАНЯЙТЕ !!!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="features-title fade-element">Почему стоит присоединиться к нам</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-element">
+                    <div class="feature-icon icon-1">👥</div>
+                    <h3 class="feature-title">Дружный коллектив</h3>
+                    <p class="feature-description">С вами будут хорошо общаться и поддерживать на каждом этапе обучения.</p>
+                </div>
+                
+                <div class="feature-card fade-element">
+                    <div class="feature-icon icon-2">🎵</div>
+                    <h3 class="feature-title">К-поп танцы</h3>
+                    <p class="feature-description">Изучайте популярные к-поп танцы и выступайте на сцене перед зрителями.</p>
+                </div>
+                
+                <div class="feature-card fade-element">
+                    <div class="feature-icon icon-3">⭐</div>
+                    <h3 class="feature-title">Профессиональные хореографы</h3>
+                    <p class="feature-description">Малика и Денис - опытные хореографы, которые помогут вам раскрыть свой потенциал.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Members Section -->
+    <section id="members" class="main-content">
+        <div class="container">
+            <h2 class="section-title gradient-text fade-element">Наши участники</h2>
+            <p class="content-text text-center fade-element">
+                Познакомьтесь с талантливыми танцорами коллектива "Revolution", которые вдохновляют своим мастерством и энергией.
+            </p>
+            
+            <div class="members-grid">
+                <!-- Member cards - using photos -->
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo1.jpg" alt="Алёна" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Алёна</h3>
+                    </div>
+                </div>
+                
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo2.jpg" alt="Ясмина" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Ясмина</h3>
+                    </div>
+                </div>
+                
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo3.jpg" alt="Диана" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Диана</h3>
+                    </div>
+                </div>
+                
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo4.jpg" alt="Аделина" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Аделина</h3>
+                    </div>
+                </div>
+                
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo5.jpg" alt="Алияна" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Алияна</h3>
+                    </div>
+                </div>
+                
+                <div class="member-card fade-element">
+                    <div class="member-photo">
+                        <img src="public/images/members/photo6.jpg" alt="Ясмина" class="member-img">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Ясмина</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Choreographers Section -->
+    <section id="choreographers" class="features">
+        <div class="container">
+            <h2 class="features-title gradient-text fade-element">Наши хореографы</h2>
+            <p class="content-text text-center fade-element">
+                Познакомьтесь с профессиональными хореографами, которые помогут вам раскрыть свой танцевальный потенциал.
+            </p>
+            
+            <div class="choreographers-grid">
+                <div class="choreographer-card fade-element">
+                    <div class="choreographer-photo">
+                        <img src="public/images/choreographers/malika.jpg" alt="Малика" class="choreographer-img">
+                    </div>
+                    <div class="choreographer-info">
+                        <h3 class="choreographer-name">Малика</h3>
+                        <p class="choreographer-social">@mollyxwod</p>
+                        <p class="choreographer-description">
+                            Основательница и главный хореограф коллектива "Revolution". Специализируется на современных танцевальных стилях и к-поп хореографии. Малика не только учит танцевальным движениям, но и помогает каждому участнику раскрыть свой потенциал.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="choreographer-card fade-element">
+                    <div class="choreographer-photo">
+                        <img src="public/images/choreographers/denis.jpg" alt="Денис" class="choreographer-img">
+                    </div>
+                    <div class="choreographer-info">
+                        <h3 class="choreographer-name">Денис</h3>
+                        <p class="choreographer-social">@Ghostonil</p>
+                        <p class="choreographer-description">
+                            Профессиональный хореограф с многолетним опытом. Денис привносит уникальный стиль и энергию в коллектив. Его подход к обучению сочетает технику и творческую свободу, что позволяет участникам быстро прогрессировать.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title fade-element">Готовы присоединиться?</h2>
+            <p class="cta-description fade-element">
+                Свяжитесь с нами прямо сейчас и станьте частью нашей танцевальной семьи!
+            </p>
+            <a href="https://t.me/improvise_love_yes" target="_blank" class="btn btn-primary fade-element">
+                Связаться с нами
+                <span class="btn-icon">→</span>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <canvas id="footerLogoCanvas" width="40" height="40"></canvas>
+                        <span class="footer-logo-text">Revolution</span>
+                    </div>
+                    <p class="footer-description">
+                        Танцевальный коллектив "Revolution" - место, где каждый может раскрыть свой потенциал и стать частью дружной команды.
+                    </p>
+                </div>
+                
+                <div class="footer-nav">
+                    <h3 class="footer-heading">Навигация</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#">Главная</a></li>
+                        <li class="footer-link"><a href="#members">Участники</a></li>
+                        <li class="footer-link"><a href="#choreographers">Хореографы</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Контакты</h3>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/mollyxwod" target="_blank" class="social-link">
+                            <span class="social-icon">📸</span>
+                            @mollyxwod
+                        </a>
+                        <a href="https://instagram.com/Ghostonil" target="_blank" class="social-link">
+                            <span class="social-icon">📸</span>
+                            @Ghostonil
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Танцевальный коллектив "Revolution". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
